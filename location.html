@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;700;900&family=Outfit:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Modern Art Gallery | Location</title>
+  </head>
+
+  <body>
+    <!-- Map Section -->
+    <section class="h-screen" id="map">
+      <!-- Map and Button -->
+      <div class="relative flex overflow-hidden h-full">
+        <!-- Mobile Image -->
+        <img
+          src="img/mobile/image-map@2x.png"
+          alt=""
+          class="w-full justify-center items-center object-cover md:hidden"
+        />
+        <!-- Tablet Image -->
+        <img
+          src="img/tablet/image-map@2x.png"
+          alt=""
+          class="hidden w-full justify-center items-center object-cover md:inline-block lg:hidden"
+        />
+        <!-- Desktop Image -->
+        <img
+          src="img/tablet/image-map@2x.png"
+          alt=""
+          class="hidden w-full justify-center items-center object-cover lg:inline-block"
+        />
+        <!-- Button -->
+        <a
+          class="absolute top-0 left-0 inline-block group z-10 md:left-8 lg:left-28"
+          href="index.html"
+        >
+          <div class="flex flex-row-reverse">
+            <button
+              class="py-4 px-8 bg-dark text-white uppercase tracking-widest text-2xl font-semibold group-hover:bg-gold group-hover:scale-95 transition-all duration-500"
+            >
+              Back to Home
+            </button>
+            <div
+              class="py-4 px-6 bg-gold group-hover:bg-dark group-hover:scale-95 group-hover:translate-x-2 transition-all duration-500"
+            >
+              <img class="h-full" src="img/icon-arrow-left.svg" alt="" />
+            </div></div
+        ></a>
+      </div>
+    </section>
+
+    <!-- Address Section -->
+    <section class="bg-dark text-white h-1/2" id="address">
+      <div class="container mx-auto">
+        <!-- Flex Container -->
+        <div class="flex flex-col py-12 md:flex-row lg:justify-between">
+          <!-- Heading -->
+          <div>
+            <h1 class="text-7xl font-extrabold uppercase mb-8">
+              Our <br class="hidden lg:inline" />Location
+            </h1>
+          </div>
+          <!-- Address and Text -->
+          <div>
+            <h3 class="text-5xl text-gold font-extrabold uppercase mb-6">
+              99 King Street
+            </h3>
+            <p class="font-outfit text-lg font-light leading-loose mb-6">
+              Newport<br />RI 02840<br />United States of America
+            </p>
+            <p
+              class="font-outfit text-lg font-light leading-loose max-w-md mb-10"
+            >
+              Our newly opened gallery is located near the Edward King House on
+              99 King Street. The Modern Art Gallery is free to all visitors and
+              open seven days a week from 8am to 9pm.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gold text-dark py-12" id="footer">
+      <div class="container mx-auto px-4">
+        <!-- Footer Content Flex -->
+        <div
+          class="flex flex-col space-y-8 md:flex-row md:space-y-0 md:space-x-16 md:items-center md:justify-center lg:justify-between"
+        >
+          <!-- Logo -->
+          <img class="w-40" src="img/logo-dark.svg" alt="" />
+          <p
+            class="font-outfit mt-6 text-lg font-light leading-8 md:max-w-xs lg:max-w-md"
+          >
+            The Modern Art Gallery is free to all visitors and open seven days a
+            week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+          </p>
+          <!-- Socials -->
+          <div class="flex space-x-6" id="socials">
+            <img
+              class="brightness-0 cursor-pointer"
+              src="img/icon-facebook.svg"
+              alt=""
+            />
+            <img
+              class="brightness-0 cursor-pointer"
+              src="img/icon-instagram.svg"
+              alt=""
+            />
+            <img
+              class="brightness-0 cursor-pointer"
+              src="img/icon-twitter.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
